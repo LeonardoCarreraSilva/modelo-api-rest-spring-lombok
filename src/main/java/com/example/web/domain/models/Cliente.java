@@ -9,12 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.validator.constraints.CodePointLength;
-
-import com.example.service.UsuarioService;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -38,6 +32,8 @@ public class Cliente implements Serializable {
 	private String email;
 	@Column(name = "telefone")
 	private String telefone;
+	@Column(name = "celular")
+	private String celular;
 	@Column(name = "cep")
 	private String cep;
 	@Column(name = "endereco")
