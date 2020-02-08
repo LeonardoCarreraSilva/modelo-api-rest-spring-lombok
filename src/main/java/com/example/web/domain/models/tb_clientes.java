@@ -17,8 +17,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @Table(name = "tb_clientes")
-@Getter
-public class Cliente implements Serializable {
+public class tb_clientes implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
@@ -49,8 +48,8 @@ public class Cliente implements Serializable {
 	@Column(name = "estado")
 	private String estado;
 	
-	public Cliente(String nome, String rg, String cpf, String email, String telefone, String cep,
-			String endereco, int numero, String complemento, String bairro, String cidade, String estado) {
+	public tb_clientes(String nome, String rg, String cpf, String email, String telefone, String cep,
+					   String endereco, int numero, String complemento, String bairro, String cidade, String estado) {
 		this.nome = nome;
 		this.rg = rg;
 		this.cpf = cpf;
