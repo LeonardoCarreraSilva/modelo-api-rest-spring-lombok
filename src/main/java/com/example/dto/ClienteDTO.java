@@ -1,8 +1,6 @@
 package com.example.dto;
 
-import javax.persistence.Column;
-
-import com.example.web.domain.models.Cliente;
+import com.example.web.domain.models.tb_clientes;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -24,7 +22,7 @@ public class ClienteDTO {
 	private String cidade;
 	private String estado;
 	
-	public Cliente transformaParaObjeto() {
-		return new Cliente(nome, rg, cpf, email, telefone, cep, endereco, numero, complemento, bairro, cidade, estado);
+	public tb_clientes transformaParaObjeto() {
+		return new tb_clientes(nome, rg, cpf, email, telefone, cep, endereco, numero, complemento, bairro, cidade, estado);
 	}
 }

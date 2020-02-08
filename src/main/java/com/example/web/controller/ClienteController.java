@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.repository.ClienteRepository;
-import com.example.web.domain.models.Cliente;
+import com.example.web.domain.models.tb_clientes;
 
 @RequestMapping("/clientes")
 @RestController
@@ -36,27 +36,27 @@ public class ClienteController {
 	}
 	
 	@PostMapping
-	public Cliente create(@RequestBody Cliente cliente) {
-		return clienteRepository.save(cliente);
+	public tb_clientes create(@RequestBody tb_clientes tbclientes) {
+		return clienteRepository.save(tbclientes);
 	}
 	
 	@PutMapping(value = "/{id}")
-	public ResponseEntity upDate(@PathVariable("id") Integer id, @RequestBody Cliente cliente) {
+	public ResponseEntity upDate(@PathVariable("id") Integer id, @RequestBody tb_clientes tbclientes) {
 		return clienteRepository.findById(id).map(record ->{
-			record.setNome(cliente.getNome());
-			record.setRg(cliente.getRg());
-			record.setCpf(cliente.getCpf());
-			record.setEmail(cliente.getEmail());
-			record.setTelefone(cliente.getTelefone());
-			record.setCelular(cliente.getCelular());
-			record.setCep(cliente.getCep());
-			record.setEndereco(cliente.getEndereco());
-			record.setNumero(cliente.getNumero());
-			record.setComplemento(cliente.getComplemento());
-			record.setBairro(cliente.getBairro());
-			record.setCidade(cliente.getCidade());
-			record.setEstado(cliente.getEstado());
-			Cliente upDated = clienteRepository.save(record);
+			record.setNome(tbclientes.getNome());
+			record.setRg(tbclientes.getRg());
+			record.setCpf(tbclientes.getCpf());
+			record.setEmail(tbclientes.getEmail());
+			record.setTelefone(tbclientes.getTelefone());
+			record.setCelular(tbclientes.getCelular());
+			record.setCep(tbclientes.getCep());
+			record.setEndereco(tbclientes.getEndereco());
+			record.setNumero(tbclientes.getNumero());
+			record.setComplemento(tbclientes.getComplemento());
+			record.setBairro(tbclientes.getBairro());
+			record.setCidade(tbclientes.getCidade());
+			record.setEstado(tbclientes.getEstado());
+			tb_clientes upDated = clienteRepository.save(record);
 			return ResponseEntity.ok().body(upDated);
 		}).orElse(ResponseEntity.notFound().build());
 	}
