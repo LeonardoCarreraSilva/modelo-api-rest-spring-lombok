@@ -3,9 +3,10 @@ package com.example.dto;
 import com.example.web.domain.models.tb_clientes;
 
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 
-@Getter
+@Data
 @Builder
 public class ClienteDTO {
 

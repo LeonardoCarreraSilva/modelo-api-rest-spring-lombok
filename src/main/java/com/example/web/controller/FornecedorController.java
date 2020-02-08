@@ -1,8 +1,6 @@
 package com.example.web.controller;
 
-import com.example.repository.ClienteRepository;
 import com.example.repository.FornecedorRepository;
-import com.example.web.domain.models.tb_clientes;
 import com.example.web.domain.models.tb_fornecedores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

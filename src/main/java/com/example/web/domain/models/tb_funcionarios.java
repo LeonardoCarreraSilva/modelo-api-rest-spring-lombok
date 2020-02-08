@@ -1,11 +1,15 @@
 package com.example.web.domain.models;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
+import lombok.Builder;
+import lombok.Data;
 
+import javax.naming.Name;
+import javax.persistence.*;
+import java.io.Serializable;
+@Data
+@Builder
+@Entity
+@Table(name = "tb_funcionarios")
 public class tb_funcionarios implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -18,6 +22,12 @@ public class tb_funcionarios implements Serializable {
     private String cpf;
     @Column(name = "email")
     private String email;
+    @Column(name = "senha")
+    private String senha;
+    @Column(name = "cargo")
+    private String cargo;
+    @Column(name = "nivel_acesso")
+    private String nivel_acesso;
     @Column(name = "telefone")
     private String telefone;
     @Column(name = "celular")
