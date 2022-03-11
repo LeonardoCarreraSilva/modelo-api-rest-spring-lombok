@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4994ab97-e697-46a0-a2d8-63fbc2ff9c34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modelo-api-rest-spring-lombok.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script Banco BDVendas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Script Banco BDVendas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/ClienteDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/FornecedorDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/FuncionariosDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/ProdutosDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/FornecedorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/providerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/FuncionariosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/ProdutosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/VendasItensRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/VendasRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/FornecedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web/controller/providerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/FuncionariosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/ItensVendasCorntroller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/ProdutosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controller/VendasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/Fornecedor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_clientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_fornecedores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_funcionarios.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_itensvendas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_produtos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/domain/models/tb_vendas.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +34,8 @@
     <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -81,14 +55,18 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -111,6 +89,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -123,89 +102,6 @@
       <updated>1579388103269</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Notifications" timestamp="1581124321113">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1581124321113" />
-    <state x="407" y="101" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1581126604177">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="407" y="101" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581126604177" />
-    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581123768865">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581123768865" />
-    <state x="2401" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582982008805">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2401" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582982008805" />
-    <state x="385" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1581127280353" />
-    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582980096475">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582980096475" />
-    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1581125396534">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581125396534" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1582982185090">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.174.1600.860@0.0.1536.824" timestamp="1581193805217" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582982185090" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1582982185089">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/-1600.174.1600.860@0.0.1536.824" timestamp="1581193805217" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582982185089" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1582982185089">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/-1600.174.1600.860@0.0.1536.824" timestamp="1581193805217" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582982185089" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1582982185089">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/-1600.174.1600.860@0.0.1536.824" timestamp="1581193805217" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582982185089" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581161933331">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581161933331" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581161933330">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581161933330">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581161933330">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581161933330" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1581155524670">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581155524670" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581125356676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581125356676" />
-    <state x="463" y="10" width="611" height="804" key="find.popup" timestamp="1581155434269">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="463" y="10" width="611" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581155434269" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581161022935">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581161022935" />
   </component>
   <component name="masterDetails">
     <states>
